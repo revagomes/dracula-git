@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+---
 
-You can use the [editor on GitHub](https://github.com/revagomes/git/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Git
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Introduction
+According to [Git documentation](https://git-scm.com/docs/git-config) valid colors are limited to white, black, green, magenta, blue, cyan, yellow, red.
+Due to the limitation on colors availablility, it appears the best option is to theme your terminal, then adjust the .gitconfig file
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Install using Git
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+```shell
+git clone https://github.com/revagomes/git.git
 ```
+## Install manually
+Download using the [GitHub .zip download](https://github.com/revagomes/git/archive/master.zip) option and unzip them.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Activating theme
 
-### Jekyll Themes
+1. Install the [Dracula theme](https://draculatheme.com/) on your terminal.
+- [Alacritty](https://draculatheme.com/alacritty)
+- [Fluent Terminal](https://draculatheme.com/fluent-terminal)
+- [Foot](https://draculatheme.com/foot-terminal)
+- [Gnome Terminal](https://draculatheme.com/gnome-terminal)
+- [Hyper](https://draculatheme.com/hyper)
+- [iTerm](https://draculatheme.com/iterm)
+- [Kitty](https://draculatheme.com/kitty)
+- [Terminal](https://draculatheme.com/terminal)
+- [Terminator](https://draculatheme.com/terminator)
+- [Termite](https://draculatheme.com/termite)
+- [Termux](https://draculatheme.com/termux)
+- [Windows Terminal](https://draculatheme.com/windows-terminal)
+- [Xfce4 Terminal](https://draculatheme.com/xfce4-terminal)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/revagomes/git/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+2. Determine the directory for the Git config file. The default location is `~/.gitconfig`. In some environments, a user’s configuration will be stored in the alternate location `$XDG_CONFIG_HOME/.gitconfig`.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+3. Copy the content of this repositorie’s config file (`config/gitconfig`) into your Git config file.
