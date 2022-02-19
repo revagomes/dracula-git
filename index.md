@@ -9,10 +9,10 @@ Due to the limitation on colors availablility, it appears the best option is to 
 ## Install using Git
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 ```shell
-git clone https://github.com/revagomes/git.git
+git clone https://github.com/revagomes/git-cli.git
 ```
 ## Install manually
-Download using the [GitHub .zip download](https://github.com/revagomes/git/archive/master.zip) option and unzip them.
+Download using the [GitHub .zip download](https://github.com/revagomes/git-cli/archive/master.zip) option and unzip them.
 
 ## Activating theme
 
