@@ -6,8 +6,8 @@
 
 ## Install
 
-All instructions can be found at [revagomes.github.io/git-cli](https://revagomes.github.io/git-cli/) and later on at [draculatheme.com/git-cli](https://draculatheme.com/git-cli).
-$
+All instructions can be found at [revagomes.github.io/dracula-git](https://revagomes.github.io/dracula-git/) and later on at [draculatheme.com/git](https://draculatheme.com/git).
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
